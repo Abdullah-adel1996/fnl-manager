@@ -1,0 +1,30 @@
+@import "~antd/dist/antd.css"; 
+
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background-image: linear-gradient(to bottom right, #023671, #1f62af);
+}
+
+.headerTitle {
+    display: flex;
+    align-items: center;
+    letter-spacing: 2px;
+}
+
+.headerLogo {
+    margin-right: 1rem;
+}
+
+.userName {
+    display: flex;
+    align-items: center;
+}
+
+.logoutBtn {
+    display: flex;
+    align-items: center;
+    border-radius: 7px;
+}

@@ -1,38 +1,77 @@
-.App {
-  text-align: center;
+@import "~antd/dist/antd.css"; 
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  /* background-color: #f1f3f4; */
+  overflow: hidden;
+}
+html {
+  font-size: 62.5%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+
+.scrolling::-webkit-scrollbar {
+  display: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container {
+  width: 100%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding-top: 2rem;
+  padding-left: 2rem;
+  height: 90vh;
+  overflow-y: scroll;
 }
 
-.App-link {
-  color: #61dafb;
+.bold {
+  font-weight: 500;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn {
+  padding: 0 3rem;
+  border-radius: 5px;
+}
+
+.btnWrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tHeader {
+  border: 1px solid #ddd;
+  background-color: #fff;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.tHeaderCell {
+  border-right: 1px solid #ddd;
+  padding: 5px;
+
+}
+
+.tRow {
+  border: 1px solid #ddd;
+  border-top: 0;
+  background-color: #fff;
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+.tRowCell {
+  border-right: 1px solid #ddd;
+  padding: 5px;
+}
+
+.tabPane {
+  border: 1px solid #f0f0f0;
+  border-top: 0;
+  padding: 2rem;
+  margin-top: -1.6rem;
 }
