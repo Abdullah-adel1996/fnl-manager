@@ -1,12 +1,12 @@
 import React from 'react';
-import { Typography, Avatar, Button, Divider, Layout } from 'antd';
+import { Typography, Avatar,Layout } from 'antd';
 import sidlabIcon from '../../assets/sidlabicon.png'
 
 import './Header.css';
 
 const Header = (props) => {
 
-    const {Title, Text} = Typography;
+    const {Title} = Typography;
 
 
     return (

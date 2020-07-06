@@ -1,11 +1,11 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import { Form, Input, Button} from 'antd';
 import LocalizedStrings from 'react-localization';
 import {Strings} from '../../../Strings';
 
 const ActivationForm = () => {
 
-  const [lang, setLang] = useState('en')
+  
 
   let strings = new LocalizedStrings({Strings});
 
